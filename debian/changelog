@@ -1,3 +1,9 @@
+qt6-svg (6.2.4-1+dde) unstable; urgency=medium
+
+  * Adapt to V23.
+
+ -- Lu YaNing <luyaning@uniontech.com>  Thu, 22 Sep 2022 15:40:29 +0800
+
 qt6-svg (6.2.4-1+dde) stable; urgency=medium
 
   * ['Rebuild  against by  current gcc 11.2']
