@@ -1,3 +1,9 @@
+qt6-svg (6.2.4.1-1+dde) stable; urgency=medium
+
+  * Update symbols.
+
+ -- Lu YaNing <luyaning@uniontech.com>  Mon, 10 Oct 2022 10:46:36 +0800
+
 qt6-svg (6.2.4-1+dde) unstable; urgency=medium
 
   * Adapt to V23.
