@@ -5,6 +5,7 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvg/QtSvgDepends
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvg/QtSvgVersion
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvg/qsvggenerator.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvg/qsvgrenderer.h
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvg/qtsvgexports.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvg/qtsvgglobal.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvg/qtsvgversion.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvgWidgets/QGraphicsSvgItem
@@ -14,6 +15,7 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvgWidgets/QtSvgWidgetsDepends
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvgWidgets/QtSvgWidgetsVersion
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvgWidgets/qgraphicssvgitem.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvgWidgets/qsvgwidget.h
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvgWidgets/qtsvgwidgetsexports.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvgWidgets/qtsvgwidgetsglobal.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSvgWidgets/qtsvgwidgetsversion.h
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6BuildInternals/StandaloneTests/QtSvgTestsConfig.cmake
@@ -51,6 +53,8 @@ usr/lib/${DEB_HOST_MULTIARCH}/libQt6SvgWidgets.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6SvgWidgets.so
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6svg_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6svgwidgets_none_metatypes.json
+usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt6Svg.pc
+usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt6SvgWidgets.pc
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_svg.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_svgwidgets.pri
 usr/share/qt6/modules/Svg.json

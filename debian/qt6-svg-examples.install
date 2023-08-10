@@ -1,0 +1,7 @@
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/svg/draganddrop/delayedencoding/delayedencoding
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/svg/embedded/desktopservices/desktopservices
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/svg/embedded/fluidlauncher/fluidlauncher
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/svg/embeddedsvgviewer/embeddedsvgviewer
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/svg/richtext/textobject/textobject
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/svg/svggenerator/svggenerator
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/svg/svgviewer/svgviewer
