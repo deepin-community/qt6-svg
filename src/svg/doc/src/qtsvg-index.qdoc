@@ -21,20 +21,13 @@
 
     \section2 Building with qmake
 
-    \include {module-use.qdocinc} {building with cmake} {svg}
+    \include {module-use.qdocinc} {building_with_qmake} {svg}
 
     \section1 Articles and Guides
 
     \list
         \li \l {Rendering SVG Files} contains information about how to
         render SVG files
-    \endlist
-
-    \section1 Examples
-
-    \list
-        \li \l {SVG Generator Example}
-        \li \l {SVG Viewer Example}
     \endlist
 
     \section1 References

@@ -40,6 +40,7 @@ sourcedirs  += .. \
                ../../svgwidgets
 
 exampledirs += ../../../examples/svg \
+               ../../../tests/manual/examples \
                snippets/
 
 examplesinstallpath = svg
@@ -48,3 +49,6 @@ imagedirs   += images
 
 navigation.landingpage = "Qt SVG"
 navigation.cppclassespage = "Qt SVG C++ Classes"
+
+# Fail the documentation build if there are more warnings than the limit
+warninglimit = 0
