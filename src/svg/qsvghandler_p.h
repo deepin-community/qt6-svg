@@ -20,7 +20,9 @@
 #include "QtCore/qstack.h"
 #include <QtCore/QLoggingCategory>
 #include "qsvgstyle_p.h"
+#if QT_CONFIG(cssparser)
 #include "private/qcssparser_p.h"
+#endif
 #include "qsvggraphics_p.h"
 #include "qtsvgglobal_p.h"
 
@@ -31,7 +33,6 @@ class QSvgTinyDocument;
 class QSvgHandler;
 class QColor;
 class QSvgStyleSelector;
-class QXmlStreamReader;
 
 #ifndef QT_NO_CSSPARSER
 

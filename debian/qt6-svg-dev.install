@@ -51,11 +51,11 @@ usr/lib/${DEB_HOST_MULTIARCH}/libQt6Svg.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Svg.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6SvgWidgets.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6SvgWidgets.so
-usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6svg_none_metatypes.json
-usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6svgwidgets_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt6Svg.pc
 usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt6SvgWidgets.pc
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6svg_none_metatypes.json
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6svgwidgets_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_svg.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_svgwidgets.pri
-usr/share/qt6/modules/Svg.json
-usr/share/qt6/modules/SvgWidgets.json
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/Svg.json
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/SvgWidgets.json

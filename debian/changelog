@@ -1,3 +1,22 @@
+qt6-svg (6.6.0-2) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * Update list of installed files.
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 28 Oct 2023 18:14:15 +0200
+
+qt6-svg (6.6.0-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.6.0).
+  * Bump Qt B-Ds to 6.6.0.
+  * Remove patches that have been applied upstream.
+  * Update list of installed files.
+  * Update symbols from buildlogs.
+  * Use the (symver) directive to catch all private symbols.
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 17 Oct 2023 00:35:00 +0200
+
 qt6-svg (6.4.2-4) unstable; urgency=medium
 
   * Team upload.
