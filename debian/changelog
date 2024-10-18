@@ -1,6 +1,12 @@
 qt6-svg (6.8.0-0deepin1) UNRELEASED; urgency=medium
 
   * New upstream release (6.8.0).
+  * Bump Qt B-Ds to 6.8.0.
+  * Update list of installed files.
+  * Update symbols from buildlogs.
+  * Remove qt6-svg-examples as the examples are currently not built and
+    the package is empty.
+  * Add package for the private headers.
 
  -- Tianyu Chen <sweetyfish@deepin.org>  Fri, 18 Oct 2024 15:36:04 +0800
 

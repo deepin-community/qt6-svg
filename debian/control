@@ -10,11 +10,11 @@ Build-Depends: cmake (>= 3.24~),
                ninja-build,
                pkg-config,
                pkg-kde-tools,
-               qt6-base-dev (>= 6.6.1+dfsg~),
-               qt6-base-private-dev (>= 6.6.1+dfsg~),
+               qt6-base-dev (>= 6.8.0+dfsg~),
+               qt6-base-private-dev (>= 6.8.0+dfsg~),
                zlib1g-dev,
-Build-Depends-Indep: qt6-base-dev (>= 6.6~) <!nodoc>,
-                     qt6-documentation-tools (>= 6.6~) <!nodoc>,
+Build-Depends-Indep: qt6-base-dev (>= 6.8~) <!nodoc>,
+                     qt6-documentation-tools (>= 6.8~) <!nodoc>,
 Standards-Version: 4.6.2
 Homepage: https://www.qt.io/developers/
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt6/qt6-svg
@@ -74,6 +74,26 @@ Description: Qt 6 SVG - development files
  This package contains the header development files used for building Qt 6
  applications using QtSvg library.
 
+Package: qt6-svg-private-dev
+Architecture: any
+Multi-Arch: same
+Section: libdevel
+Depends: qt6-svg-dev (= ${binary:Version}),
+         ${misc:Depends},
+Description: Qt 6 SVG - private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtSvg module provides classes for displaying the contents of SVG files.
+ .
+ Scalable Vector Graphics (SVG) is a language for describing two-dimensional
+ graphics and graphical applications in XML.
+ .
+ This package contains the private development files used for building Qt 6
+ applications using QtSvg library.
+ .
+ Use at your own risk.
+
 Package: qt6-svg-doc
 Architecture: all
 Section: doc
@@ -108,13 +128,3 @@ Description: Qt 6 svg tags files
  This package contains the doxygen tags files for the qt SVG
  documentation.
 
-Package: qt6-svg-examples
-Architecture: any
-Multi-Arch: same
-Section: misc
-Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Qt 6 SVG examples
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the examples for the Qt SVG submodule.

@@ -1,8 +1,10 @@
-# SymbolsHelper-Confirmed: 6.6.0 amd64
+# SymbolsHelper-Confirmed: 6.8.0 amd64
 libQt6Svg.so.6 libqt6svg6 #MINVER#
 * Build-Depends-Package: qt6-svg-dev
+ NonQt@NonQt 6.8.0
  Qt_6@Qt_6 6.6.0
  (symver)Qt_6_PRIVATE_API 0
+ _ZN12QSvgRenderer10setOptionsE6QFlagsIN5QtSvg6OptionEE@Qt_6 6.8.0
  _ZN12QSvgRenderer10setViewBoxERK5QRect@Qt_6 6.6.0
  _ZN12QSvgRenderer10setViewBoxERK6QRectF@Qt_6 6.6.0
  _ZN12QSvgRenderer11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.6.0
@@ -10,8 +12,10 @@ libQt6Svg.so.6 libqt6svg6 #MINVER#
  _ZN12QSvgRenderer13repaintNeededEv@Qt_6 6.6.0
  _ZN12QSvgRenderer15setCurrentFrameEi@Qt_6 6.6.0
  _ZN12QSvgRenderer16staticMetaObjectE@Qt_6 6.6.0
+ _ZN12QSvgRenderer17setDefaultOptionsE6QFlagsIN5QtSvg6OptionEE@Qt_6 6.8.0
  _ZN12QSvgRenderer18setAspectRatioModeEN2Qt15AspectRatioModeE@Qt_6 6.6.0
  _ZN12QSvgRenderer18setFramesPerSecondEi@Qt_6 6.6.0
+ _ZN12QSvgRenderer19setAnimationEnabledEb@Qt_6 6.8.0
  _ZN12QSvgRenderer4loadEP16QXmlStreamReader@Qt_6 6.6.0
  _ZN12QSvgRenderer4loadERK10QByteArray@Qt_6 6.6.0
  _ZN12QSvgRenderer4loadERK7QString@Qt_6 6.6.0
@@ -53,8 +57,10 @@ libQt6Svg.so.6 libqt6svg6 #MINVER#
  _ZNK12QSvgRenderer15boundsOnElementERK7QString@Qt_6 6.6.0
  _ZNK12QSvgRenderer15framesPerSecondEv@Qt_6 6.6.0
  _ZNK12QSvgRenderer17animationDurationEv@Qt_6 6.6.0
+ _ZNK12QSvgRenderer18isAnimationEnabledEv@Qt_6 6.8.0
  _ZNK12QSvgRenderer19transformForElementERK7QString@Qt_6 6.6.0
  _ZNK12QSvgRenderer7isValidEv@Qt_6 6.6.0
+ _ZNK12QSvgRenderer7optionsEv@Qt_6 6.8.0
  _ZNK12QSvgRenderer7viewBoxEv@Qt_6 6.6.0
  _ZNK12QSvgRenderer8animatedEv@Qt_6 6.6.0
  _ZNK12QSvgRenderer8viewBoxFEv@Qt_6 6.6.0
