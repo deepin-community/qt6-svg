@@ -39,6 +39,7 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Svg/Qt6SvgDependencies.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Svg/Qt6SvgTargets-none.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Svg/Qt6SvgTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Svg/Qt6SvgVersionlessTargets.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Svg/*.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6SvgWidgets/Qt6SvgWidgetsAdditionalTargetInfo.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6SvgWidgets/Qt6SvgWidgetsConfig.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6SvgWidgets/Qt6SvgWidgetsConfigVersion.cmake
@@ -47,6 +48,7 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6SvgWidgets/Qt6SvgWidgetsDependencies.cmak
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6SvgWidgets/Qt6SvgWidgetsTargets-none.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6SvgWidgets/Qt6SvgWidgetsTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6SvgWidgets/Qt6SvgWidgetsVersionlessTargets.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6SvgWidgets/*.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Svg.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Svg.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6SvgWidgets.prl
