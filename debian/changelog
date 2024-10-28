@@ -1,8 +1,53 @@
-qt6-svg (6.8.0-0deepin) unstable; urgency=medium
+qt6-svg (6.7.2-4) unstable; urgency=medium
 
-  * New upstream release (6.8.0).
+  * Upload to unstable.
 
- -- lichenggang <lichenggang@deepin.org>  Sat, 26 Oct 2024 23:48:17 +0800
+ -- Patrick Franz <deltaone@debian.org>  Sat, 05 Oct 2024 02:06:59 +0200
+
+qt6-svg (6.7.2-3) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * Fix handling of private symbols.
+
+ -- Patrick Franz <deltaone@debian.org>  Sun, 08 Sep 2024 15:05:07 +0200
+
+qt6-svg (6.7.2-2) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * Add package for the private headers.
+  * Remove qt6-svg-examples as the examples are currently not built and
+    the package is empty.
+  * Update d/copyright.
+  * Update lintian-overrides.
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 29 Aug 2024 18:40:28 +0200
+
+qt6-svg (6.7.2-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.7.2).
+  * Bump Qt B-Ds to 6.7.2.
+  * Bump Standards-Version to 4.7.0 (no changes needed).
+  * Update symbols from buildlogs.
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 29 Aug 2024 12:40:24 +0200
+
+qt6-svg (6.6.2-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Upload to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 06 Jun 2024 18:42:27 +0200
+
+qt6-svg (6.6.2-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.6.2).
+  * Bump Qt B-Ds to 6.6.2.
+  * Build-depend on pkgconf instead of pkg-config as the latter has been
+    superseded by the former.
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 15 Feb 2024 20:21:42 +0100
 
 qt6-svg (6.6.1-1) experimental; urgency=medium
 

@@ -1,9 +1,12 @@
 # SymbolsHelper-Confirmed: 6.8.0 amd64
 libQt6SvgWidgets.so.6 libqt6svgwidgets6 #MINVER#
-* Build-Depends-Package: qt6-svg-dev
+| libqt6svgwidgets6 #MINVER#, qt6-svg-private-abi (= 6.8.0)
+* Build-Depends-Packages: qt6-svg-dev, qt6-svg-private-dev
+ NonQt@NonQt 6.8.0
  Qt_6@Qt_6 6.8.0
- (symver)Qt_6_PRIVATE_API 0
+ (symver)Qt_6_PRIVATE_API 0 1
  _ZN10QSvgWidget10paintEventEP11QPaintEvent@Qt_6 6.8.0
+ _ZN10QSvgWidget10setOptionsE6QFlagsIN5QtSvg6OptionEE@Qt_6 6.8.0
  _ZN10QSvgWidget11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.8.0
  _ZN10QSvgWidget11qt_metacastEPKc@Qt_6 6.8.0
  _ZN10QSvgWidget16staticMetaObjectE@Qt_6 6.8.0
@@ -29,6 +32,7 @@ libQt6SvgWidgets.so.6 libqt6svgwidgets6 #MINVER#
  _ZN16QGraphicsSvgItemC2EP13QGraphicsItem@Qt_6 6.8.0
  _ZN16QGraphicsSvgItemC2ERK7QStringP13QGraphicsItem@Qt_6 6.8.0
  _ZNK10QSvgWidget10metaObjectEv@Qt_6 6.8.0
+ _ZNK10QSvgWidget7optionsEv@Qt_6 6.8.0
  _ZNK10QSvgWidget8rendererEv@Qt_6 6.8.0
  _ZNK10QSvgWidget8sizeHintEv@Qt_6 6.8.0
  _ZNK16QGraphicsSvgItem10metaObjectEv@Qt_6 6.8.0
