@@ -1,0 +1,2 @@
+Replace-check-for-endless-recursion-when-loading.patch
+Do-not-create-group-nodes-which-will-be-deleted-anyway.patch
