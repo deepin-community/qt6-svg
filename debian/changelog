@@ -1,6 +1,7 @@
 qt6-svg (6.8.0-0deepin2) unstable; urgency=medium
 
-  * Update patch. 
+  * Fix CVE-2025-10728: Replace check for endless recursion when loading
+  * Fix CVE-2025-10729: Don't create group nodes which will be deleted anyway 
 
  -- Tian ShiLin <tianshilin@uniontech.com>  Wed, 17 Dec 2025 13:34:40 +0800
 
