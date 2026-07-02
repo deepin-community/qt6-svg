@@ -1,3 +1,11 @@
+qt6-svg (6.8.0-0deepin6) unstable; urgency=medium
+
+  * Fix resolving paint servers ignoring '#' prefix in style ID lookup,
+    causing gradient/pattern resolution failures in some SVGs such as
+    Tencent Meeting icon. (CVE-2026-8168 regression)
+
+ -- Tian ShiLin <tianshilin@uniontech.com>  Thu, 03 Jul 2026 00:00:00 +0800
+
 qt6-svg (6.8.0-0deepin5) unstable; urgency=medium
 
   * Fix rendering causing stack overflow with deeply nested SVG nodes (CVE-2026-8168).
