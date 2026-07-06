@@ -1,0 +1,40 @@
+Author: Tian Shilin <tianshilin@uniontech.com>
+Date:   Thu Jul 02 2026 00:00:00 +0800
+Subject: Fix '#' prefix in paint server ID lookup causing gradient resolution failure
+
+The fix-resolving-paint-servers-stack-overflow.patch replaced the recursive
+resolvePaintServers() implementation with an iterative one, but the new code
+calls m_doc->namedStyle(id) directly without stripping the '#' prefix from
+the paint style ID. The old code path via structureNode->styleProperty(id)
+automatically stripped the '#' prefix via QSvgNode::styleProperty(const QString &).
+
+This caused all gradient and pattern references in SVGs to fail resolution,
+resulting in fills being set to Qt::NoBrush (transparent).
+
+Observed with the Tencent Meeting SVG icon (wemeet.svg) which uses four
+linearGradient references via url(#paintN_linear_...).
+
+Bug: QTBUG-145916
+
+Index: qt6-svg/src/svg/qsvghandler.cpp
+===================================================================
+--- qt6-svg.orig/src/svg/qsvghandler.cpp
++++ qt6-svg/src/svg/qsvghandler.cpp
+@@ -4904,6 +4904,8 @@ void QSvgHandler::resolvePaintServers()
+         if (prop->type() == QSvgStyleProperty::FILL) {
+             QSvgFillStyle *fill = static_cast<QSvgFillStyle *>(prop);
+             QString id = fill->paintStyleId();
++            if (id.startsWith(QLatin1Char('#')))
++                id.remove(0, 1);
+             QSvgPaintStyleProperty *style = m_doc->namedStyle(id);
+             if (style) {
+                 fill->setFillStyle(style);
+@@ -4914,6 +4916,8 @@ void QSvgHandler::resolvePaintServers()
+         } else if (prop->type() == QSvgStyleProperty::STROKE) {
+             QSvgStrokeStyle *stroke = static_cast<QSvgStrokeStyle *>(prop);
+             QString id = stroke->paintStyleId();
++            if (id.startsWith(QLatin1Char('#')))
++                id.remove(0, 1);
+             QSvgPaintStyleProperty *style = m_doc->namedStyle(id);
+             if (style) {
+                 stroke->setStyle(style);
