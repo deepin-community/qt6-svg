@@ -4,3 +4,5 @@ CVE-2026-6210-test-types-of-nodes-before-downcasting-them.patch
 fix-rendering-stack-overflow-with-nested-depth-limit.patch
 fix-stack-overflow-caused-by-recursive-destructors.patch
 fix-resolving-paint-servers-stack-overflow.patch
+unify-resource-identifier-parsing.patch
+refactor-create-separate-class-for-paint-servers.patch

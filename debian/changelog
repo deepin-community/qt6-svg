@@ -1,3 +1,11 @@
+qt6-svg (6.8.0-0deepin6) unstable; urgency=medium
+
+  * Update patch: unify SVG resource identifier parsing (QTBUG-141742).
+  * Update patch: refactor SVG paint servers into separate classes
+    (QTBUG-144848).
+
+ -- Tian ShiLin <tianshilin@uniontech.com>  Tue, 07 Jul 2026 20:48:25 +0800
+
 qt6-svg (6.8.0-0deepin5) unstable; urgency=medium
 
   * Fix rendering causing stack overflow with deeply nested SVG nodes (CVE-2026-8168).
