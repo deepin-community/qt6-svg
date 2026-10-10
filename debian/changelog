@@ -1,3 +1,9 @@
+qt6-svg (6.8.0-0deepin8) unstable; urgency=medium
+
+  * Add CVE-2026-95611 patch for QSvgFeGaussianBlur allocation overflow.
+
+ -- Tian ShiLin <tianshilin@uniontech.com>  Sat, 10 Oct 2026 10:27:39 +0800
+
 qt6-svg (6.8.0-0deepin7) unstable; urgency=medium
 
   * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
