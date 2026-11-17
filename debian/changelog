@@ -1,3 +1,9 @@
+qt6-svg (6.8.0-0deepin8) unstable; urgency=medium
+
+  * Add CVE-2026-95611 security patches.
+
+ -- zhanghongyuan <zhanghongyuan@uniontech.com>  Tue, 17 Nov 2026 19:46:50 +0800
+
 qt6-svg (6.8.0-0deepin7) unstable; urgency=medium
 
   * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
